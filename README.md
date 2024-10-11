@@ -13,7 +13,7 @@
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/yourwebsite.git
+   git clone https://github.com/dnx01/YourWebsite-BETA
    cd yourwebsite
 
 2. **Install Dependencies**: Make sure you have Node.js installed, then run:
