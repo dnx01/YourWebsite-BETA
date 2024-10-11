@@ -65,7 +65,6 @@
  
   Open App.jsx and add the new route for the page:
   
-     ```bash
       import AboutPage from './pages/about';
   
     <Route path="/about" element={<AboutPage />} />
