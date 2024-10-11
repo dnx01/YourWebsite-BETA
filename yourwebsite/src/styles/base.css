@@ -1,0 +1,64 @@
+/* Stiluri de bază pentru layout și tipografie */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Layout Flexibil */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Responsive Design */
+.col {
+    width: 100%;
+}
+
+@media(min-width: 600px) {
+    .col-md {
+        width: 48%;
+    }
+}
+
+@media(min-width: 900px) {
+    .col-lg {
+        width: 32%;
+    }
+}
+
+@media(min-width: 1200px) {
+    .col-xl {
+        width: 24%;
+    }
+}

@@ -1,0 +1,28 @@
+/* src/styles/main.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .responsive-container {
+    padding: 20px;
+  }
+  
+  .breakpoint-0 {
+    background-color: lightblue; /* Stil pentru Mobile View */
+  }
+  
+  .breakpoint-1 {
+    background-color: lightgreen; /* Stil pentru Tablet View */
+  }
+  
+  .breakpoint-2 {
+    background-color: lightcoral; /* Stil pentru Desktop View */
+  }
+  
+  .breakpoint-3 {
+    background-color: lightsalmon; /* Stil pentru Large Desktop View */
+  }
+  
